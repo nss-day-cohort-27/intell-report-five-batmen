@@ -56,12 +56,19 @@ footer {
     margin: .5em;
 }
 
+footer a:link {
+    color: #32CD32;
+}
+
+footer a:visited {
+    color: orangered;
+}
+
 footer a:hover {
     color: white;
 }
 
 /* Individual Page Styles */
-
 
 img {
     height: auto; 
