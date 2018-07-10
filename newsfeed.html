@@ -10,136 +10,165 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
     .checked {
-        color: orange;
+        color: red;
+    }
+    body {
+        background-color: black;
+        color: greenyellow;
+    }
+    article {
+        border: 2px solid;
+        border-radius: 16px;
+        padding: .5em;
+        margin: .5em;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        text-align: justify;
+        padding: 5px 0 5px 0;
+        
+    }
+    li {
+        margin: 0 5px 0 5px;
+    }
+    .victims {
+        display: flex;
+    }
+    .witnesses {
+        display: flex;
     }
     </style>
 </head>
 <body>
     <header>
-        <h1>NSSIA</h1>
-        <nav>
-            <div><a href="NSSIA.html">Home</a></div>
-            <div><a href="executive-summary.html">Executive Summary</a></div>
-            <div><a href="rapsheet.html">Rap Sheet</a></div>
-            <div><a href="newsfeed.html">News Feed</a></div>
-            <div><a href="financial-interests.html">Financial Interests</a></div>
-        </nav>
+        <!-- insert header later -->
     </header>
     <h1>News Feed</h1>
     <main>
         <article>
-            <h2>Crime 1</h2>
-            <h3><span>Date: </span><span>07/09/18</span><span> | </span><span>City, St.</span></h3>
+            <h2>Blasting Mrs. Bads cat into space.</h2>
+            <h3><span>Date: </span><span>06/01/17</span><span> | </span><span>Saransk, Russia</span></h3>
+            <!-- Icons for stars 10 Total-->
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <p>The Space Force reported finding a home made rocket ship made out of a metal trashcan in space with a cat with tags saying "If lost return to Mrs. Bad". Authorities say Mr. Bad is a possible POI in this case.</p>
+            <h4>Space Force</h4>
+            <div class="victims">
+                <h3>Victims: </h3>
+                <ul>
+                    <li>Mrs. Bad</li>
+                    <li>Mrs. Bad's Cat</li>
+                </ul>
+            </div>
+            <div class="witnesses">
+                <h3>Witnesses: </h3>
+                <ul>
+                    <li>Elon Musk</li>
+                </ul>
+            </div>
+        </article>
+        <article>
+            <h2>Spreading rumors concerning Mr. Bad's Mother-in-law</h2>
+            <h3><span>Date: </span><span>05/025/13</span><span> | </span><span>Saransk, Russia</span></h3>
             <!-- Icons for stars 10 Total-->
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque repellendus fugit dolorem illo officia nostrum nam optio iure perferendis vero, sed reiciendis architecto quis eaque sunt similique est dolore in.</p>
-            <h4>Agency</h4>
-            <ul class="poi">
-                <li>Victim 1</li>
+            <p>A large amount of rumors concerning snoring, bad breath, and grouchy attitude have been reported to the local police.</p>
+            <h4>Local Police</h4>
+            <ul class="victims">
+                <li>Mr. Bad's Mother-in-law</li>
             </ul>
-            <ul class="poi">
-                <li>Witness 1</li>
+            <ul class="witnesses">
+                <li>The people of Saransk</li>
             </ul>
         </article>
         <article>
-            <h2>Crime 2</h2>
-            <h3><span>Date: </span><span>07/09/18</span><span> | </span><span>City, St.</span></h3>
+            <h2>Theft of neighbors spoons</h2>
+            <h3><span>Date: </span><span>07/09/18</span><span> | </span><span>Astrakhan, Russia</span></h3>
             <!-- Icons for stars 10 Total-->
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque repellendus fugit dolorem illo officia nostrum nam optio iure perferendis vero, sed reiciendis architecto quis eaque sunt similique est dolore in.</p>
-            <h4>Agency</h4>
-            <ul class="poi">
-                <li>Victim 1</li>
+            <p>Shmeleva reported to the local police that her spoon collection was stolen a few days ago, her husband Kapralov mentioned that Mr. Bad had a strange interest in the collection</p>
+            <h4>Military Police</h4>
+            <ul class="victims">
+                <li>Shmeleva Sergeyevich</li>
             </ul>
-            <ul class="poi">
-                <li>Witness 1</li>
+            <ul class="witnesses">
+                <li>Kapralov Sergeyevich</li>
             </ul>
         </article>
         <article>
-            <h2>Crime 3</h2>
-            <h3><span>Date: </span><span>07/09/18</span><span> | </span><span>City, St.</span></h3>
+            <h2>Spotted smoking with Pandas</h2>
+            <h3><span>Date: </span><span>01/16/18</span><span> | </span><span>Xi'an, China</span></h3>
             <!-- Icons for stars 10 Total-->
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque repellendus fugit dolorem illo officia nostrum nam optio iure perferendis vero, sed reiciendis architecto quis eaque sunt similique est dolore in.</p>
-            <h4>Agency</h4>
-            <ul class="poi">
-                <li>Victim 1</li>
+            <span class="fa fa-star"></span>
+            <p>Reports from zoo personel noted someone remarkably similar to Mr. Bad had hopped over the barrier to the panda exhibit and proceeded to smoke with the pandas.</p>
+            <h4>Local Police</h4>
+            <ul class="victims">
+                <li>Mei Xiang the panda</li>
             </ul>
-            <ul class="poi">
-                <li>Witness 1</li>
+            <ul class="witnesses">
+                <li>Zoo employees</li>
+                <li>Confused kids from local school on field trip</li>
             </ul>
         </article>
         <article>
-            <h2>Crime 4</h2>
-            <h3><span>Date: </span><span>07/09/18</span><span> | </span><span>City, St.</span></h3>
+            <h2>Throwing collectable silverware are pidgeons</h2>
+            <h3><span>Date: </span><span>11/16/14</span><span> | </span><span>Sydney, Australia</span></h3>
             <!-- Icons for stars 10 Total-->
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque repellendus fugit dolorem illo officia nostrum nam optio iure perferendis vero, sed reiciendis architecto quis eaque sunt similique est dolore in.</p>
-            <h4>Agency</h4>
-            <ul class="poi">
-                <li>Victim 1</li>
+            <p>Bystanders around the Sydney aquarium reported a man resembling Mr. Bad throwing collectable spoons at pidgeons around the aquarium grounds.</p>
+            <h4>Russian Navy</h4>
+            <ul class="victims">
+                <li>Confused Wildlife</li>
             </ul>
-            <ul class="poi">
-                <li>Witness 1</li>
-            </ul>
-        </article>
-        <article>
-            <h2>Crime 5</h2>
-            <h3><span>Date: </span><span>07/09/18</span><span> | </span><span>City, St.</span></h3>
-            <!-- Icons for stars 10 Total-->
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque repellendus fugit dolorem illo officia nostrum nam optio iure perferendis vero, sed reiciendis architecto quis eaque sunt similique est dolore in.</p>
-            <h4>Agency</h4>
-            <ul class="poi">
-                <li>Victim 1</li>
-            </ul>
-            <ul class="poi">
-                <li>Witness 1</li>
+            <ul class="witnesses">
+                <li>Nicholas King</li>
+                <li>Justice Mason</li>
+                <li>Nicole Mcdonald</li>
             </ul>
         </article>
     </main>
