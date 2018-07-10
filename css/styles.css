@@ -3,26 +3,11 @@ body {
     color: #32CD32;
 }
 
-div a:hover {
-    color: white;
-}
-
 .main-title {
     text-align: center;
     font-size: 5em;
     text-decoration: underline;
-}
-
-img {
-    height: auto; 
-    width: auto; 
-    max-width: 100px; 
-    max-height: 100px;
-}
-
-.container {
-    background-color: red;
-    flex: 1;
+    font-family: 
 }
 
 .myDiv {
@@ -50,6 +35,18 @@ img {
     margin: .5em;
 }
 
+.more-text a:link {
+    color: #32CD32;
+}
+
+.more-text a:visited {
+    color: orangered;
+}
+
+.more-text a:hover {
+    color: white;
+}
+
 footer {
     text-align: center;
     border: 2px solid;
@@ -63,11 +60,19 @@ footer a:hover {
     color: white;
 }
 
-/* Individual Changes */
+/* Individual Page Styles */
 
-/* .intro-section {
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+
+.op, .intro-section, .associates, .portrait, .aliases, .origin {
     border: 2px solid;
     border-radius: 16px;
     padding: .5em;
     margin: .5em;
-} */
+}
