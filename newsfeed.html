@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>News Feed</title>
-    
+    <link rel="stylesheet" href="css/styles.css">
     <!-- Star rating-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- This style will overwrite the stylesheet -->
     <style>
     .checked {
         color: red;
-    }
-    body {
-        background-color: black;
-        color: greenyellow;
     }
     article {
         border: 2px solid;
@@ -42,7 +39,16 @@
 </head>
 <body>
     <header>
-        <!-- insert header later -->
+        <h1 class="main-title">NSSIA</h1>
+        <div class="myDiv">
+            <div class="more-text">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="executive-summary.html">Executive Summary</a></div>
+            <div><a href="rapsheet.html">Rap Sheet</a></div>
+            <div><a href="newsfeed.html">News Feed</a></div>
+            <div><a href="financial-interests.html">Financial Interests</a></div>
+            </div>   
+        </div>
     </header>
     <h1>News Feed</h1>
     <main>
@@ -165,7 +171,7 @@
             </div>
         </article>
         <article>
-            <h2>Throwing collectable silverware are pidgeons</h2>
+            <h2>Throwing collectable silverware at pidgeons</h2>
             <h3><span>Date: </span><span>11/16/14</span><span> | </span><span>Sydney, Australia</span></h3>
             <!-- Icons for stars 10 Total-->
             <span class="fa fa-star checked"></span>
