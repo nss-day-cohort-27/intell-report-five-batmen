@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: #32CD32;
+}
+
+nav a:hover {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.myDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
