@@ -7,9 +7,12 @@
 .flex-item-column {
     width: 30%;
     margin: 1em;
+    padding: 1em;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
+    border: 2px solid;
+    border-radius: 16px;
 }
 
 .flex-container-officials {
@@ -21,9 +24,12 @@
 .flex-item-officials {
         width: 100%;
         margin: 2em;
+        padding: 1em;
         display: flex;
         display: -webkit-flex;
         flex-direction: column;
+        border: 2px solid;
+        border-radius: 16px;
 }
 
 li {
