@@ -1,0 +1,40 @@
+.flex-container-column {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}
+
+.flex-item-column {
+    width: 30%;
+    margin: 1em;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.flex-container-officials {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}
+
+.flex-item-officials {
+        width: 100%;
+        margin: 2em;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+}
+
+li {
+    margin: 1em;
+    list-style-type: none;
+}
+
+.img-officials {
+    width: 50%;
+}
+
+.list-officials {
+    flex-direction: row;
+}
