@@ -56,12 +56,19 @@ footer {
     margin: .5em;
 }
 
+footer a:link {
+    color: #32CD32;
+}
+
+footer a:visited {
+    color: orangered;
+}
+
 footer a:hover {
     color: white;
 }
 
 /* Individual Page Styles */
-
 
 img {
     height: auto; 
@@ -70,7 +77,7 @@ img {
     max-height: 200px;
 }
 
-.op, .intro-section, .associates, .portrait, .aliases, .origin {
+.op, .intro-section, .associates, .portrait, .aliases, .origin, .head {
     border: 2px solid;
     border-radius: 16px;
     padding: .5em;
