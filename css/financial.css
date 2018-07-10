@@ -31,11 +31,17 @@ li {
     list-style-type: none;
 }
 
-.img-officials {
-    margin-top: 3em;
-    width: 50%;
+.list-officials-container {
+    display: flex;
 }
 
-.list-officials {
-    flex-direction: row;
+.img-officials {
+    width: 50%;
+    height: 50%;
+    margin: 1em;
+}
+
+.officials-side-item {
+    flex-direction: column;
+    margin: 1em;
 }
